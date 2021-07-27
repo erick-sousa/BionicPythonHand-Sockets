@@ -32,7 +32,6 @@ def receive():
             data = pickle.loads(msg)
 
             if data['protocol'] == 0:
-                print("meh")
                 allfingers[data['finger']].write(data['angle'])
                 data.clear()
 

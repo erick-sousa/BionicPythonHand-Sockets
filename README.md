@@ -14,7 +14,7 @@ There are three files Python files in this repository. First I'll look at the [s
 
 The [main_client.py](main_client.py) file is given to the person who intends on having the Arduino plugged into their computer. This client's program will receive a pickled dictionary with the processed data from the server and set the servo's to the appropriate angles. 
 
-The [clien.py](clien.py) file is for all normal clients and they are able to connect to the server by opening the TKinter GUI. These clients can simply use the buttons and input boxes on the GUI to send their request to the server, and the main client will receive and use this data in a very short amount of time. This allows for quick and efficient use of the hand remotely.
+The [client.py](client.py) file is for all normal clients and they are able to connect to the server by opening the TKinter GUI. These clients can simply use the buttons and input boxes on the GUI to send their request to the server, and the main client will receive and use this data in a very short amount of time. This allows for quick and efficient use of the hand remotely.
 
 To improve the program, I hope to make the server more robust, for example it does not properly handle people disconnecting from the server and returns and error. The server does not break as a result of the error, but it is still not ideal. Beyond that, a more efficient method of assigning the main client role would be better, as currently it simply assigns this role to the first person to connect which can lead to issues.
 

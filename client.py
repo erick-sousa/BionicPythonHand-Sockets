@@ -4,7 +4,7 @@ from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 import pickle
 import platform
-#test
+
 def receive():
     while True:
         try:
@@ -254,10 +254,9 @@ spacerlabel4 = Label(root, text=" ").grid(row=12, column=2)
 
 
 
-HOST = '45.79.209.57'
+HOST = 'IP OF SERVER'
 PORT = 5555
-#45.79.209.57
-#192.168.1.111
+
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 

@@ -48,10 +48,9 @@ def receive():
             break
 
 
-HOST = '45.79.209.57'
+HOST = 'IP OF SERVER'
 PORT = 5555
-#45.79.209.57
-#192.168.1.111
+
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 
